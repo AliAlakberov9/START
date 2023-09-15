@@ -21,51 +21,76 @@ header .box {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
 }
 header .box .imgbox {
   width: 150px;
-  margin: 20px 0 0 200px;
+  margin: 15px 0 0 800px;
 }
 header .box nav {
   position: absolute;
   top: 20px;
-  right: 20%;
+  right: 10%;
 }
 header .box nav a {
   margin-right: 40px;
-  font-size: 15px;
+  font-size: 18px;
   color: #ffffff;
 }
 header .box nav a:hover {
   color: #ffc800;
 }
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 1920px) {
   header .box {
     background-color: #212529;
     width: 100%;
-    height: 60px;
-    position: relative;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
   header .box .imgbox {
-    width: 120px;
-    margin: 20px 0 0 250px;
+    width: 150px;
+    margin: 15px 0 0 200px;
   }
   header .box nav {
     position: absolute;
     top: 20px;
-    right: 25%;
+    right: 15%;
   }
   header .box nav a {
-    margin-right: 20px;
-    font-size: 15px;
+    margin-right: 40px;
+    font-size: 18px;
     color: #ffffff;
   }
   header .box nav a:hover {
     color: #ffc800;
+  }
+}
+@media screen and (max-width: 1120px) {
+  header .box {
+    background-color: #212529;
+    width: 100%;
+    height: 70px;
     position: fixed;
-    top: 0px;
-    left: 310px;
+    top: 0;
+    left: 0;
+  }
+  header .box .imgbox {
+    width: 150px;
+    margin: 15px 0 0 100px;
+  }
+  header .box nav {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+  }
+  header .box nav a {
+    margin-right: 40px;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  header .box nav a:hover {
+    color: #ffc800;
   }
 }
 
@@ -78,8 +103,6 @@ header .box nav a:hover {
   background-repeat: no-repeat;
   width: 100%;
   height: 750px;
-  margin: 0 0 0 0;
-  z-index: -1;
 }
 #welcome .box .textbox {
   position: relative;
@@ -110,13 +133,28 @@ header .box nav a:hover {
   border-radius: 2px;
   color: #ffffff;
 }
-@media screen and (max-width: 1000px) {
-  #welcome .box {
-    width: 1500px;
-    height: 600px;
+@media screen and (max-width: 1500px) {
+  #welcome {
+    padding: 50px;
     background-image: url("Assets/header-bg.jpg");
+    background-position: center center;
     background-size: cover;
-    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #welcome {
+    padding: 50px;
+    background-image: url("Assets/header-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 200%;
+    height: 750px;
   }
   #welcome .box .textbox {
     position: relative;
@@ -143,12 +181,15 @@ header .box nav a:hover {
   }
 }
 @media screen and (max-width: 500px) {
-  #welcome .box {
-    width: 1500px;
-    height: 600px;
+  #welcome {
+    padding: 50px;
     background-image: url("Assets/header-bg.jpg");
+    background-position: center center;
     background-size: cover;
-    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
   }
   #welcome .box .textbox {
     position: relative;
