@@ -592,7 +592,7 @@ header .box nav a:hover {
     margin: 10px 50px 10px 0px;
   }
   #services .box1 {
-    margin: 30px 0 10px 100px;
+    margin: 30px 0 10px 80px;
     font-size: 90px;
     width: 170px;
     height: 170px;
@@ -618,7 +618,7 @@ header .box nav a:hover {
     font-size: 20px;
   }
   #services .box {
-    margin: 50px 0px 10px 20px;
+    margin: 50px 0px 10px 50px;
     font-size: 70px;
     width: 150px;
     height: 150px;
@@ -676,7 +676,7 @@ header .box nav a:hover {
 #portfolio .box .imgbox:hover {
   color: #ffc800;
 }
-#portfolio .box .textbox h1 {
+#portfolio .box .textbox1 h1 {
   margin: 30px 0 10px 145px;
   font-size: 40px;
 }
@@ -704,7 +704,7 @@ header .box nav a:hover {
   #portfolio .box .imgbox:hover {
     color: #ffc800;
   }
-  #portfolio .box .textbox h1 {
+  #portfolio .box .textbox1 h1 {
     margin: 20px 0px 10px 100px;
     font-size: 40px;
   }
@@ -714,18 +714,14 @@ header .box nav a:hover {
   }
 }
 @media screen and (max-width: 1000px) {
-  #portfolio .bigtextbox h1 {
+  #portfolio h1 {
     font-size: 50px;
     font-weight: 700;
     margin: 0 0 0 20px;
   }
-  #portfolio .bigtextbox1 {
-    width: 500px;
-    height: 70px;
-    margin: 20px 0 55px 120px;
-  }
-  #portfolio .bigtextbox1 h2 {
+  #portfolio h2 {
     font-size: 20px;
+    margin: 20px 0 55px 120px;
   }
   #portfolio .box {
     margin: 30px 5px 0 50px;
@@ -737,7 +733,7 @@ header .box nav a:hover {
   #portfolio .box .imgbox:hover {
     color: #ffc800;
   }
-  #portfolio .box .textbox h1 {
+  #portfolio .box .textbox1 h1 {
     margin: 20px 0px 10px 80px;
     font-size: 40px;
   }
@@ -747,18 +743,14 @@ header .box nav a:hover {
   }
 }
 @media screen and (max-width: 800px) {
-  #portfolio .bigtextbox h1 {
+  #portfolio h1 {
     font-size: 50px;
     font-weight: 700;
     margin: 0 0 0 0px;
   }
-  #portfolio .bigtextbox1 {
-    width: 500px;
-    height: 70px;
-    margin: 20px 0 25px 60px;
-  }
-  #portfolio .bigtextbox1 h2 {
+  #portfolio h2 {
     font-size: 20px;
+    margin: 20px 0 25px 0px;
   }
   #portfolio .box {
     margin: 30px 0px 0 0px;
@@ -770,7 +762,7 @@ header .box nav a:hover {
   #portfolio .box .imgbox:hover {
     color: #ffc800;
   }
-  #portfolio .box .textbox h1 {
+  #portfolio .box .textbox1 h1 {
     margin: 20px 0px 10px 50px;
     font-size: 40px;
   }
@@ -780,17 +772,45 @@ header .box nav a:hover {
   }
 }
 @media screen and (max-width: 650px) {
-  #portfolio .bigtextbox h1 {
+  #portfolio h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  #portfolio h2 {
+    margin: 10px 0px 0 0;
+    font-size: 15px;
+  }
+  #portfolio .box {
+    margin: 30px 0px 0 0px;
+  }
+  #portfolio .box .imgbox {
+    width: 250px;
+    color: #ffffff;
+  }
+  #portfolio .box .imgbox:hover {
+    color: #ffc800;
+  }
+  #portfolio .box .textbox1 h1 {
+    margin: 20px 0px 10px 50px;
+    font-size: 40px;
+  }
+  #portfolio .box .textbox1 h2 {
+    margin: 10px 0px 0 50px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #portfolio h1 {
     font-size: 50px;
     font-weight: 700;
     margin: 0 0 0 0px;
   }
-  #portfolio .bigtextbox1 h2 {
-    margin: 10px 200px 0 0;
-    font-size: 15px;
+  #portfolio h2 {
+    font-size: 20px;
+    margin: 20px 0px 25px 0px;
   }
   #portfolio .box {
-    margin: 30px 0px 0 100px;
+    margin: 30px 90px 0 0px;
   }
   #portfolio .box .imgbox {
     width: 220px;
@@ -799,40 +819,7 @@ header .box nav a:hover {
   #portfolio .box .imgbox:hover {
     color: #ffc800;
   }
-  #portfolio .box .textbox h1 {
-    margin: 20px 0px 10px 50px;
-    font-size: 40px;
-  }
-  #portfolio .box .textbox1 h2 {
-    margin: 10px 0 0 55px;
-    font-size: 25px;
-  }
-}
-@media screen and (max-width: 450px) {
-  #portfolio .bigtextbox h1 {
-    font-size: 50px;
-    font-weight: 700;
-    margin: 0 0 0 20px;
-  }
-  #portfolio .bigtextbox1 {
-    width: 500px;
-    height: 70px;
-    margin: 20px 50px 25px 0px;
-  }
-  #portfolio .bigtextbox1 h2 {
-    font-size: 20px;
-  }
-  #portfolio .box {
-    margin: 30px 0px 0 0px;
-  }
-  #portfolio .box .imgbox {
-    width: 260px;
-    color: #ffffff;
-  }
-  #portfolio .box .imgbox:hover {
-    color: #ffc800;
-  }
-  #portfolio .box .textbox h1 {
+  #portfolio .box .textbox1 h1 {
     margin: 20px 0px 10px 50px;
     font-size: 40px;
   }
